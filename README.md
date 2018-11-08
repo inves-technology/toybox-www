@@ -8,10 +8,10 @@ Author:
 [Phantom Design](https://phantom.design)
 
 ## TO DO
-- Add some [cool animation](https://speckyboy.com/css-background-effects/) to the masthead
 - Make the navbar sticky, animate to a yellow bg on scroll
 - Add Scrollspy
 - Navbar styling
 - Where do action buttons go to?
-- Correct icons on the benefits section & subtle animation?
 - Test on mobile
+- Add a member called "you?" which links through to the application
+- Add a yellow overlay when you mouse over a fellow
