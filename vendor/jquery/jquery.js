@@ -1,4 +1,4 @@
-/*!
+
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
  *
@@ -10,7 +10,7 @@
  * https://jquery.org/license
  *
  * Date: 2018-01-20T17:24Z
- */
+  
 ( function( global, factory ) {
 
 	"use strict";
