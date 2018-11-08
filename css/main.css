@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn-xl {
@@ -80,38 +80,48 @@ h6 {
 }
 
 .masthead {
-  min-height: 30rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-m.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	min-height: 30rem;
+	position: relative;
+	display: table;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 100%), url("../img/bg-m.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 30rem;
+	width: 100%;
 }
 
 .masthead h1 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 4rem;
+  font-weight: 900;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
 }
 
 .masthead h3 {
-  font-family: 'Amatic SC', cursive;
+  font-weight: 100;
   font-size: 2rem;
+}
+
+.masthead p {
+	color: #aeaeae;
+	font-weight: 100;
+	font-style: oblique;
+}
+
+.masthead a {
+	margin-top: 50px;
 }
 
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg.jpg");
+	background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 100%), url("../img/bg.jpg");
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -340,7 +350,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #4a4a4a;
   text-decoration: none;
 }
 
@@ -359,19 +369,19 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #4a4a4a !important;
+  border-color: #4a4a4a !important;
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: #ecc139 !important;
+  border-color: #ecc139 !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #d6a706 !important;
+  border-color: #d6a706 !important;
 }
 
 .btn-dark {
@@ -392,7 +402,7 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #ecc139 !important;
 }
 
 /* Lead paragraph */
@@ -400,3 +410,74 @@ a:hover, a:focus, a:active {
 	font-weight: 100;
 }
 
+/* Fellows */
+.fellows-section .row {
+	padding-top:  30px;
+	cursor: pointer;
+}
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(255,255,255); /* Black fallback color */
+    background-color: rgba(255,255,255, 0.95); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 10%; /* 10% from the top */
+    width: 100%; /* 100% width */
+	padding-right: 10%;
+	padding-left:  10%;
+	padding-bottom: 5%;
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay img {
+	height: 400px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	float: left;
+}
+
+.overlay p {
+	padding-top: 20px;
+}
+
+@media (max-width: 992px) {
+	.overlay img {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
