@@ -80,91 +80,134 @@
 	</nav>
 	
     <!-- Member introduction -->
-    <section class="content-section bg-light" id="member-introduction">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-			 <h2 class="mb-4">Become a Toybox Member</h2>
-			 <p class="lead">Remain relevant. Support African innovation.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+	<header class="masthead d-flex member-masthead">	  
+	  <div class="container text-center my-auto">
+	  </div>
+	  <div class="overlay"></div>
+	</header>
+	
+	<section class="content-section text-center">
+		<div class="container text-center my-auto">
+			<h1 class="mb-1">Become a Toybox Member</h1>
+			<h3 class="font-weight-light">Remain relevant. Support African innovation.</h3>
+		</div>
+	</section>
 	
 	<!-- Member benefits -->
-	<section class="content-section" id="member-benefits">
+	<section class="content-section bg-primary text-white text-center" id="benefits">
 	  <div class="container">
-		<dl class="row">
-		  <dt class="col-sm-3">Aggregated investment</dt>
-		  <dd class="col-sm-9">Combining resources enables us to do so much more.</dd>
-		  <dt class="col-sm-3">Diversification</dt>
-		  <dd class="col-sm-9">Exposure to an interdisciplinary group of inventors and experts.</dd>
-		  <dt class="col-sm-3">Exclusive insight</dt>
-		  <dd class="col-sm-9">Access to the latest Toybox tech and inventions at exclusive, biannual events.</dd>
-		</dl>
+	    <div class="content-section-heading">
+	      <h2 class="mb-5">Toybox Members have access to</h2>
+	    </div>
+	    <div class="row">
+	      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+	        <span class="service-icon rounded-circle mx-auto mb-3">
+	          <i class="icon-wallet"></i>
+	        </span>
+	        <h4>
+	          <strong>Aggregated investment</strong>
+	        </h4>
+	        <p class="text-faded mb-0">Combining resources enables us to do so much more.</p>
+	      </div>
+	      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+	        <span class="service-icon rounded-circle mx-auto mb-3">
+	          <i class="icon-people"></i>
+	        </span>
+	        <h4>
+	          <strong>Diversification</strong>
+	        </h4>
+	        <p class="text-faded mb-0">Exposure to an interdisciplinary group of inventors and experts.</p>
+	      </div>
+	      <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	        <span class="service-icon rounded-circle mx-auto mb-3">
+	          <i class="icon-bubble"></i>
+	        </span>
+	        <h4>
+	          <strong>Exclusive insight</strong>
+	        </h4>
+	        <p class="text-faded mb-0">Access to the latest Toybox tech and inventions at exclusive, biannual events.</p>
+	    </div>        
+		<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+			<span class="service-icon rounded-circle mx-auto mb-3">
+				<i class="icon-heart"></i>
+			</span>
+			<h4>
+				<strong>Invest in Africa</strong>
+			</h4>
+			<p class="text-faded mb-0">Support local talent and the development of tech skills in Africa.</p>
+		</div>  
+		</div>		
 	  </div>
 	</section>
+	
 	
 	<!-- Contact -->
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-8 offset-xl-2 py-5">
 				<h3 style="padding-bottom:20px">Want to learn more?</h3>
+				
 				<form name="contact" method="POST" action="/thanks.html" netlify>
-					    <div class="messages"></div>
-					    <div class="controls">
-					        <div class="row">
-					            <div class="col-md-6">
-					                <div class="form-group">
-					                    <label for="form_name">Name *</label>
-					                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Please enter your name.">
-					                    <div class="help-block with-errors"></div>
-					                </div>
-					            </div>
-								<div class="col-md-6">
-								    <div class="form-group">
-								        <label for="form_organisation">Organisation *</label>
-								        <input id="form_organisation" type="text" name="organisation" class="form-control" required="required" data-error="What organisation do you represent?">
-								        <div class="help-block with-errors"></div>
-								    </div>
+					<div class="messages"></div>
+					
+					<div class="controls">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_name">Name *</label>
+									
+									<input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Please enter your name.">
+									
+									<div class="help-block with-errors"></div>
 								</div>
-								
-					        </div>
-					        <div class="row">
-					            <div class="col-md-6">
-					                <div class="form-group">
-					                    <label for="form_email">Email *</label>
-					                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Please enter a valid email address.">
-					                    <div class="help-block with-errors"></div>
-					                </div>
-					            </div>
-					        </div>
-					        <div class="row">
-					            <div class="col-md-12">
-					                <div class="form-group">
-					                    <label for="form_message">Message</label>
-					                    <textarea id="form_message" name="message" class="form-control" rows="4"></textarea>
-					                    <div class="help-block with-errors"></div>
-					                </div>
-					            </div>
-					            <div class="col-md-12">
-					                <input type="submit" class="btn btn-success btn-send" value="Send message">
-					            </div>
-					        </div>
-					        <div class="row">
-					            <div class="col-md-12">
-					                <p class="text-muted">
-					                    <strong>*</strong> These fields are required.</p>
-					            </div>
-					        </div>
-					    </div>
+							</div>
+							
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_organisation">Organisation *</label>
+									
+									<input id="form_organisation" type="text" name="organisation" class="form-control" required="required" data-error="What organisation do you represent?">
+									
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_email">Email *</label>
+									
+									<input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Please enter a valid email address.">
+									
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<label for="form_message">Message</label>
+									
+									<textarea id="form_message" name="message" class="form-control" rows="4"></textarea>
+									
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							
+							<div class="col-md-12">
+								<input type="submit" class="btn btn-success btn-send" value="Send message">
+							</div>
+						</div>
+					</div>
 				</form>
 			</div>
 		</div>
 	</div>
-					
 	
-    <!-- Footer -->
+
+<!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
         <ul class="list-inline mb-5">

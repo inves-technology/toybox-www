@@ -137,6 +137,15 @@ h6 {
   }
 }
 
+.member-masthead {
+	background: url("../img/cruiseterminal.jpg");
+	padding-bottom: 8rem;
+	height: 50vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .service-icon {
   background-color: #fff;
   color: #000000;
