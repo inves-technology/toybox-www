@@ -13,6 +13,5 @@ Author:
 - Navbar styling
 - Where do action buttons go to?
 - Test on mobile
-- Add a member called "you?" which links through to the application
 - Add a yellow overlay when you mouse over a fellow
 - Add Google Analytics
