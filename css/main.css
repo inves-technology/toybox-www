@@ -242,7 +242,7 @@ a:hover, a:focus, a:active {
 }
 
 /* Fellows */
-.fellows-section .row {
+.avatar {
 	padding-top:  30px;
 	cursor: pointer;
 }
@@ -252,7 +252,7 @@ a:hover, a:focus, a:active {
 	padding-right: 20px;
 }
 
-/* The Overlay (background) */
+/* The Overlay */
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */    
     height: 0;
