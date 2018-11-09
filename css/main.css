@@ -309,6 +309,8 @@ a:hover, a:focus, a:active {
     }
 }
 
-.join {
-	padding-bottom: 20px;
+@media (max-width: 575px) {
+	.join {
+		padding-top: 20%;
+	}
 }

@@ -15,3 +15,4 @@ Author:
 - Test on mobile
 - Add a member called "you?" which links through to the application
 - Add a yellow overlay when you mouse over a fellow
+- Add Google Analytics
