@@ -247,6 +247,11 @@ a:hover, a:focus, a:active {
 	cursor: pointer;
 }
 
+.fellows-text {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 /* The Overlay (background) */
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */    
