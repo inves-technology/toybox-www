@@ -12,7 +12,4 @@ Author:
 - Add Google Analytics
 - When we have Fellows, replace the Member Benefits section on the home page with that.
 - Link form submissions on Zapier
-- On mobile: navbar items should be on the right and should be smaller
 - Masthead image not viewable on mobile
-- "Toybox members have access to" too large on mobile
-- Can't close overlay on mobile

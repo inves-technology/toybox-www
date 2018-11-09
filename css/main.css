@@ -18,7 +18,7 @@ body {
 }
 
 .content-section-heading h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .content-section-heading h3 {
@@ -84,7 +84,7 @@ h6 {
 	display: table;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 100%), url("../img/bg-m.jpg");
+	background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.2) 100%), url("../img/bg-m.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -117,7 +117,7 @@ h6 {
 @media (min-width: 992px) {
   .masthead {
     height: 80vh;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 100%), url("../img/bg.jpg");
+	background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.2) 100%), url("../img/bg.jpg");
 	background-attachment: fixed;
   }
   .masthead h1 {
@@ -127,7 +127,7 @@ h6 {
 
 @media (min-width: 1280px) {
   .masthead {
-	background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 100%), url("../img/bg-l.jpg");
+	background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.2) 100%), url("../img/bg-l.jpg");
   }
 }
 
