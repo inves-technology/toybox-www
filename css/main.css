@@ -76,7 +76,7 @@ h6 {
 }
 
 .scroll-to-top i {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .masthead {
@@ -339,4 +339,8 @@ a:hover, a:focus, a:active {
 	.join {
 		padding-top: 20%;
 	}
+}
+
+.anchor {
+	padding-top: 100px;
 }
