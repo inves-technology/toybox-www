@@ -8,7 +8,7 @@ Author:
 [Phantom Design](https://phantom.design)
 
 ## TO DO
-- Where do action buttons go to?
 - Test on mobile
 - Add a yellow overlay when you mouse over a fellow
 - Add Google Analytics
+- When we have Fellows, replace the Member Benefits section on the home page with that.
