@@ -13,3 +13,4 @@ Author:
 - When we have Fellows, replace the Member Benefits section on the home page with that.
 - Link form submissions on Zapier
 - Masthead image not viewable on mobile
+- Add smooth scrolling

@@ -344,3 +344,8 @@ a:hover, a:focus, a:active {
 .anchor {
 	padding-top: 100px;
 }
+
+.navbar-collapse {
+	text-align: right;
+	padding-right: 10%;
+}
