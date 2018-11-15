@@ -278,7 +278,7 @@ a:hover, a:focus, a:active {
 
 .overlay .closebtn {
     position: absolute;
-    top: 60px;
+    top: 80px;
     right: 45px;
     font-size: 60px;
 	z-index: 999;
