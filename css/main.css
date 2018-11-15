@@ -345,7 +345,48 @@ a:hover, a:focus, a:active {
 	padding-top: 100px;
 }
 
+
+.navbar {
+	border-bottom: 2px solid #D8D8D8;
+}
+
 .navbar-collapse {
 	text-align: right;
-	padding-right: 10%;
+	font-weight: 300;
+	position: relative;
+	right: -100px;
+}
+
+@media (max-width: 575px) {
+	.navbar-collapse {
+		position: relative;
+		right: 0px;
+		text-align: center;
+	}
+}
+
+.navbar-toybox {
+	font-weight: 500;
+	font-size: 1.3em;
+	padding-left: 10px;
+}
+
+.navbar-borncurious {
+	font-weight: 200;
+	padding-left: 10px;
+	display: block;
+	line-height: 0.8em;
+}
+
+.navbar-symbol {
+	position: relative;
+	top: 40px;
+}
+
+@media (max-width: 575px) {
+	.navbar-symbol {
+		position: absolute;
+		top: 70px;
+		right: 20px;
+	}
 }
