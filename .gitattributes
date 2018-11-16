@@ -1,2 +1,19 @@
-# Auto detect text files and perform LF normalization
+# Autodetect Text Files:
 * text=auto
+
+# Definitely Text Files:
+.gitattributes text
+.gitignore text
+*.md text
+*.tf text
+*.js text
+*.json text
+*.py text
+*.css text
+*.tfvars text
+*.yml text
+Dockerfile text
+Makefile text
+
+# Definitely Binary Files:
+#   Add here once we have binary files in Repo e.g. PNG

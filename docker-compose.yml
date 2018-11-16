@@ -1,0 +1,19 @@
+version: '3'
+services:
+  toybox-www:
+    container_name: toybox-www
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        PROJECT: ${PROJECT}
+    ports:
+      - "3001:3001"
+    volumes:
+      - './.aws:/root/.aws'
+      - '.:/${PROJECT}'
+      - '/${PROJECT}/src/node_modules'
+    environment: 
+      - NODE_ENV=development
+      - AWS_PROFILE=inves-global
+    entrypoint: top
