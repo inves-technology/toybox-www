@@ -20,6 +20,11 @@ parcel index.html
 
 (Prereq: Docker, all your AWS credentials, terraform project to be applied to master, dev and prod)
 
+```sh
+make up
+make env=dev deploy
+```
+
 TODO: Much the same at the others - let's get the standard stuff live first
 
 ## TO DO
@@ -31,3 +36,5 @@ TODO: Much the same at the others - let's get the standard stuff live first
 - Masthead image not viewable on mobile
 - Add smooth scrolling
 - Hook up Continuous Deployment again
+- Fix the incorrect links (mostly icons) that prevents parcel from running atm.
+- Add all the parcel steps to package.json so we can use it via yarn first, then makefile
