@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel serve index.html --port 3003",
     "build": "parcel build index.html"
   },
   "devDependencies": {
