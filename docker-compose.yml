@@ -8,7 +8,7 @@ services:
       args:
         PROJECT: ${PROJECT}
     ports:
-      - "3001:3001"
+      - "${PORT}:${PORT}"
     volumes:
       - './.aws:/root/.aws'
       - '.:/${PROJECT}'
