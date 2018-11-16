@@ -34,13 +34,15 @@ RUN rm /var/cache/apk/*
 RUN mkdir -p /${PROJECT}
 RUN mkdir -p /${PROJECT}/src
 
-COPY ./src/package.json ./src/yarn.lock /${PROJECT}/src/
+#TODO: Bring Yarn and other crap back for a package manager later. Temporarily giving up on parceljs
+
+#COPY ./src/package.json ./src/yarn.lock /${PROJECT}/src/
 
 WORKDIR /${PROJECT}/src
 
 # Yarn Installs
-RUN yarn global add parcel-bundler
-RUN yarn
+#RUN yarn global add parcel-bundler
+#RUN yarn
 
 # Copy Project and kick off build
 COPY . /${PROJECT}/
