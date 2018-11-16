@@ -7,6 +7,21 @@ Made in Cape Town.
 Author:
 [Phantom Design](https://phantom.design)
 
+## Getting Started
+
+(Prereq: Docker)
+
+```sh
+make up
+parcel index.html
+```
+
+## Deploying
+
+(Prereq: Docker, all your AWS credentials, terraform project to be applied to master, dev and prod)
+
+TODO: Much the same at the others - let's get the standard stuff live first
+
 ## TO DO
 
 - Add a yellow overlay when you mouse over a fellow (this is hard, forget it)
