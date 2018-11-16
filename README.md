@@ -13,7 +13,7 @@ Author:
 
 ```sh
 make up
-parcel index.html
+yarn dev
 ```
 
 ## Deploying
@@ -37,4 +37,3 @@ TODO: Much the same at the others - let's get the standard stuff live first
 - Add smooth scrolling
 - Hook up Continuous Deployment again
 - Fix the incorrect links (mostly icons) that prevents parcel from running atm.
-- Add all the parcel steps to package.json so we can use it via yarn first, then makefile
