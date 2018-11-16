@@ -12,7 +12,7 @@ services:
     volumes:
       - './.aws:/root/.aws'
       - '.:/${PROJECT}'
-      - '/${PROJECT}/src/node_modules'
+      #- '/${PROJECT}/src/node_modules'
     environment: 
       - NODE_ENV=development
       - AWS_PROFILE=inves-global
