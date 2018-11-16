@@ -32,7 +32,7 @@ yarn-error.log*
 
 # builds
 build
-dist
+**/dist
 
 # python
 *.pyc
