@@ -19,9 +19,13 @@ make up
 
 (Prereq: Docker, all your AWS credentials, terraform project to be applied to master, dev and prod)
 
+Note: the Docker container will start within the src folder. You need to cd up to the root before you deploy.
+
 ```sh
 make up
+cd ..
 make env=dev deploy
+make env=prod deploy
 ```
 
 TODO: Much the same at the others - let's get the standard stuff live first
