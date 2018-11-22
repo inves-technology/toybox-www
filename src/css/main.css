@@ -359,7 +359,7 @@ a:hover, a:focus, a:active {
 
 
 .navbar {
-	border-bottom: 2px solid #868686;
+	border-bottom: 1.5px solid #868686;
 }
 
 .navbar-collapse {
@@ -398,7 +398,7 @@ a:hover, a:focus, a:active {
 @media (max-width: 575px) {
 	.navbar-symbol {
 		position: absolute;
-		top: 70px;
+		top: 62px;
 		right: 20px;
 	}
 }
