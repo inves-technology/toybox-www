@@ -32,9 +32,10 @@ TODO: Much the same at the others - let's get the standard stuff live first
 
 ## TO DO
 
+- Navbar won't stay open
+- TB symbol spacing on mobile
 - Add a yellow overlay when you mouse over a fellow (this is hard, forget it)
 - Add Google Analytics
-- When we have Fellows, replace the Member Benefits section on the home page with that.
 - Link form submissions on Zapier
 - Masthead image not viewable on mobile
 - Add smooth scrolling
