@@ -39,4 +39,4 @@ TODO: Much the same at the others - let's get the standard stuff live first
 - Masthead image not viewable on mobile
 - Add smooth scrolling
 - Hook up Continuous Deployment again
-- Re-look into a package manager. ParcelJS didn't work out very well. 
+- Re-look into a package manager. ParcelJS didn't work out very well.
