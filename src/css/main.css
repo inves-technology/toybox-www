@@ -398,7 +398,7 @@ a:hover, a:focus, a:active {
 @media (max-width: 575px) {
 	.navbar-symbol {
 		position: absolute;
-		top: 70px;
+		top: 63px;
 		right: 20px;
 	}
 }
