@@ -32,20 +32,20 @@ RUN pip install awscli
 RUN rm /var/cache/apk/*
 
 RUN mkdir -p /${PROJECT}
-RUN mkdir -p /${PROJECT}/src
+
+COPY . /${PROJECT}/
+
+WORKDIR /${PROJECT}
 
 #TODO: Bring Yarn and other crap back for a package manager later. Temporarily giving up on parceljs
 
-#COPY ./src/package.json ./src/yarn.lock /${PROJECT}/src/
-
-WORKDIR /${PROJECT}/src
-
 # Yarn Installs
+# WORKDIR /${PROJECT}/src
 #RUN yarn global add parcel-bundler
 #RUN yarn
 
 # Copy Project and kick off build
-COPY . /${PROJECT}/
+# RUN yarn build
 
 # Docker Whale prompt (which needs ncurses package for tput to work)
 RUN printf 'export PS1="\[$(tput setaf 4)\] __v_\\n\[$(tput setaf 4)\]($(tput smul)₀   $(tput rmul)\/{\[$(tput sgr0)\] \\t \[$(tput setaf 5)\][\w]\[$(tput sgr0)\]\$ "' >> ~/.bashrc
